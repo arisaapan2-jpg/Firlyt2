@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semangat Belajar! ✨</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --card-bg: rgba(255, 255, 255, 0.15); }
+        body, html {
+            margin: 0; padding: 0; font-family: 'Inter', sans-serif;
+            background: #0b0b0b url('https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=1000&q=80') no-repeat center center fixed;
+            background-size: cover; height: 100%; display: flex; align-items: center; justify-content: center; overflow: hidden;
+        }
+        body::before { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6); z-index: 0; }
+        .card {
+            position: relative; z-index: 1; background: var(--card-bg); backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 25px; padding: 30px;
+            width: 85%; max-width: 400px; text-align: center; color: white; box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+        }
+        .stiker { width: 120px; height: 120px; margin-bottom: 20px; border-radius: 15px; }
+        h2 { font-size: 1.3rem; margin-bottom: 15px; color: #fff; }
+        p { font-size: 1rem; opacity: 0.95; line-height: 1.6; white-space: pre-line; margin-bottom: 25px; }
+        button { 
+            padding: 12px 30px; border-radius: 50px; border: none; cursor: pointer; 
+            font-weight: 600; background: #fff; color: #000; transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(255,255,255,0.2);
+        }
+        button:hover { transform: scale(1.05); background: #f0f0f0; }
+    </style>
